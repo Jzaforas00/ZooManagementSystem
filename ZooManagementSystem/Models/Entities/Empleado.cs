@@ -10,7 +10,7 @@
         public int? CategoriasId { get; set; }
         public int? JaulaId { get; set; }
 
-        public CategoriaLaboral? Categoria { get; set; }
+        public CategoriaLaboral? CategoriaLaboral { get; set; }
         public Jaula? Jaula { get; set; }
     }
 }

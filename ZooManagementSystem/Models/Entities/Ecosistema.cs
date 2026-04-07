@@ -7,5 +7,6 @@
         public string? Url { get; set; }
 
         public ICollection<Zona> Zonas { get; set; } = new List<Zona>();
+        public ICollection<Animal> Animales { get; set; } = new List<Animal>();
     }
 }

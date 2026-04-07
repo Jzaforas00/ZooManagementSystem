@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+
 namespace ZooManagementSystem
 {
     public class Program
@@ -8,6 +10,20 @@ namespace ZooManagementSystem
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            // Add a database connection
+            builder.Services.AddDbContext<Data.ZooDbContext>(optionsBuilder =>
+            {
+                var dbPath = Path.Combine(AppContext.BaseDirectory, "Data", "Zoo.mdf");
+
+                optionsBuilder.UseSqlServer(
+                    $@"Server=(LocalDB)\MSSQLLocalDB;
+               AttachDbFilename={dbPath};
+               Integrated Security=True;
+               Connect Timeout=30;
+               TrustServerCertificate=True;
+               MultipleActiveResultSets=True;");
+            });
 
             var app = builder.Build();
 
