@@ -12,18 +12,8 @@ namespace ZooManagementSystem
             builder.Services.AddControllersWithViews();
 
             // Add a database connection
-            builder.Services.AddDbContext<Data.ZooDbContext>(optionsBuilder =>
-            {
-                var dbPath = Path.Combine(AppContext.BaseDirectory, "Data", "Zoo.mdf");
-
-                optionsBuilder.UseSqlServer(
-                    $@"Server=(LocalDB)\MSSQLLocalDB;
-               AttachDbFilename={dbPath};
-               Integrated Security=True;
-               Connect Timeout=30;
-               TrustServerCertificate=True;
-               MultipleActiveResultSets=True;");
-            });
+            builder.Services.AddDbContext<Data.ZooDbContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
 
