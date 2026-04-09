@@ -1,32 +1,38 @@
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
-using ZooManagementSystem.Models;
+using Microsoft.EntityFrameworkCore;
+using ZooManagementSystem.Data;
+using ZooManagementSystem.Models.ViewModels;
+using ZooManagementSystem.Services.Interfaces;
 
-namespace ZooManagementSystem.Controllers
+namespace ZooMvc.Controllers;
+
+public class HomeController : Controller
 {
-    public class HomeController : Controller
+    private readonly IAnimalQueryService _animalQueryService;
+    private readonly ZooDbContext _context;
+
+    public HomeController(IAnimalQueryService animalQueryService, ZooDbContext context)
     {
-        private readonly ILogger<HomeController> _logger;
+        _animalQueryService = animalQueryService;
+        _context = context;
+    }
 
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+    public async Task<IActionResult> Index(string? especie, CancellationToken cancellationToken)
+    {
+        var animales = await _animalQueryService.GetAnimalCardsAsync(especie, cancellationToken);
+        var especies = await _context.Animales
+            .AsNoTracking()
+            .Where(a => a.Especie != null && a.Especie != "")
+            .Select(a => a.Especie!.Trim())
+            .Distinct()
+            .OrderBy(x => x)
+            .ToListAsync(cancellationToken);
 
-        public IActionResult Index()
+        return View(new HomeIndexViewModel
         {
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+            EspecieFiltro = especie,
+            Animales = animales,
+            EspeciesDisponibles = especies
+        });
     }
 }

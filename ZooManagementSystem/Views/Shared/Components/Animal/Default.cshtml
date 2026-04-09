@@ -1,0 +1,28 @@
+﻿@model List<AnimalCardViewModel>
+
+<div class="cards">
+    @foreach (var item in Model)
+    {
+        <article class="card">
+            <div class="card-image">
+                @if (!string.IsNullOrWhiteSpace(item.FotoUrl))
+                {
+                    <img src="@item.FotoUrl" alt="@item.Nombre" />
+                }
+                else
+                {
+                    <div class="placeholder">Sin imagen</div>
+                }
+            </div>
+            <div class="card-body">
+                <h3>@item.Nombre</h3>
+                <p><strong>Especie:</strong> @item.Especie</p>
+                <p><strong>Ecosistema:</strong> @item.Ecosistema</p>
+                <p><strong>Dieta:</strong> @item.Dieta</p>
+                <p><strong>Jaula:</strong> @item.Jaula</p>
+                <p><strong>Zona:</strong> @item.Zona</p>
+                <p><a asp-controller="Animals" asp-action="Details" asp-route-id="@item.Id">Ver detalle</a></p>
+            </div>
+        </article>
+    }
+</div>

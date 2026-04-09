@@ -1,8 +1,71 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model HomeIndexViewModel
+@{
+    ViewData["Title"] = "Visitantes del Zoo";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<section class="hero hero-zoo">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <div class="hero-copy">
+            <span class="eyebrow">Gestión de zoo</span>
+            <h1>Plataforma profesional para la operación diaria del zoo</h1>
+            <p>Consulta animales, ecosistemas, ubicación en jaulas y datos clave del parque. El área pública mantiene el filtro por especie mediante el ViewComponent solicitado en el ejercicio.</p>
+        </div>
+        <div class="hero-panels">
+            <article class="hero-panel">
+                <strong>Visitantes</strong>
+                <span>Consulta visual de animales, dieta, jaula y ecosistema.</span>
+            </article>
+            <article class="hero-panel">
+                <strong>Operación</strong>
+                <span>Panel de gestión, pedidos sugeridos y mantenimiento integral.</span>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="home-sections">
+    <div class="section-headline">
+        <div>
+            <span class="eyebrow">Accesos</span>
+            <h2>Áreas principales</h2>
+        </div>
+    </div>
+
+    <div class="menu-grid menu-grid-primary">
+        <a class="menu-card feature-card feature-dashboard" asp-controller="Management" asp-action="Index">
+            <strong>Cuadro de mando</strong>
+            <span>KPIs, compatibilidades, inversión en comida y pedidos sugeridos listos para imprimir.</span>
+        </a>
+        <article class="menu-card feature-card feature-gestion">
+            <strong>Gestión</strong>
+            <span>Acceso agrupado a todos los mantenimientos para evitar una portada apelmazada.</span>
+            <div class="subnav-grid">
+                <a asp-controller="Animals" asp-action="Index">Animales</a>
+                <a asp-controller="Alimentos" asp-action="Index">Alimentos</a>
+                <a asp-controller="Dosis" asp-action="Index">Dosis</a>
+                <a asp-controller="Jaulas" asp-action="Index">Jaulas</a>
+                <a asp-controller="Zonas" asp-action="Index">Zonas</a>
+                <a asp-controller="Ecosistemas" asp-action="Index">Ecosistemas</a>
+                <a asp-controller="Empleados" asp-action="Index">Empleados</a>
+                <a asp-controller="CategoriasLaborales" asp-action="Index">Categorías</a>
+                <a asp-controller="Proveedores" asp-action="Index">Proveedores</a>
+            </div>
+        </article>
+    </div>
+</section>
+
+<form method="get" class="filterbar scenic-panel">
+    <label for="especie">Especie</label>
+    <select id="especie" name="especie">
+        <option value="">Todas</option>
+        @foreach (var especie in Model.EspeciesDisponibles)
+        {
+            <option value="@especie" selected="@(Model.EspecieFiltro == especie)">@especie</option>
+        }
+    </select>
+    <button type="submit">Filtrar</button>
+    <a asp-action="Index" class="secondary-btn">Limpiar</a>
+</form>
+
+@await Component.InvokeAsync("Animal", new { especie = Model.EspecieFiltro })

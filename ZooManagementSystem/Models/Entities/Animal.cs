@@ -5,9 +5,9 @@
         public int Id { get; set; }
         public string? Especie { get; set; }
         public string? NombrePopular { get; set; }
-        public int EcosistemaId { get; set; }
+        public int? EcosistemaId { get; set; }
         public string? UrlImagen { get; set; }
-        public int JaulaId { get; set; }
+        public int? JaulaId { get; set; }
         public int? AlimentacionId { get; set; }
 
         public Alimentacion? Alimentacion { get; set; }

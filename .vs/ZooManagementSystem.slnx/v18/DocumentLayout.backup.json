@@ -1,15 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Propietario\\source\\repos\\ZooManagementSystem\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{422754A1-0824-D535-3B86-7BC1C9159C92}|ZooManagementSystem\\ZooManagementSystem.csproj|c:\\users\\propietario\\source\\repos\\zoomanagementsystem\\zoomanagementsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{422754A1-0824-D535-3B86-7BC1C9159C92}|ZooManagementSystem\\ZooManagementSystem.csproj|solutionrelative:zoomanagementsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 303,
-          "SelectedChildIndex": -1,
+          "DockedHeight": 110,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +23,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Propietario\\source\\repos\\ZooManagementSystem\\ZooManagementSystem\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ZooManagementSystem\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Propietario\\source\\repos\\ZooManagementSystem\\ZooManagementSystem\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ZooManagementSystem\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAGkEAAAAAAAAAAAAwIYEAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-09T16:56:21.385Z",
+              "EditorCaption": ""
             }
           ]
         },

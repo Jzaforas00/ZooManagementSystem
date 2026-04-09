@@ -26,7 +26,6 @@ C:\Users\Propietario\source\repos\ZooManagementSystem\ZooManagementSystem\obj\De
 C:\Users\Propietario\source\repos\ZooManagementSystem\ZooManagementSystem\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Propietario\source\repos\ZooManagementSystem\ZooManagementSystem\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\Propietario\source\repos\ZooManagementSystem\ZooManagementSystem\obj\Debug\net8.0\swae.build.ex.cache
-C:\Users\Propietario\source\repos\ZooManagementSystem\ZooManagementSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Propietario\source\repos\ZooManagementSystem\ZooManagementSystem\obj\Debug\net8.0\ZooManagementSystem.dll
 C:\Users\Propietario\source\repos\ZooManagementSystem\ZooManagementSystem\obj\Debug\net8.0\refint\ZooManagementSystem.dll
 C:\Users\Propietario\source\repos\ZooManagementSystem\ZooManagementSystem\obj\Debug\net8.0\ZooManagementSystem.pdb
@@ -146,3 +145,4 @@ C:\Users\Propietario\source\repos\ZooManagementSystem\ZooManagementSystem\bin\De
 C:\Users\Propietario\source\repos\ZooManagementSystem\ZooManagementSystem\obj\Debug\net8.0\ZooManagementSystem.csproj.AssemblyReference.cache
 C:\Users\Propietario\source\repos\ZooManagementSystem\ZooManagementSystem\obj\Debug\net8.0\ZooManagementSystem.sourcelink.json
 C:\Users\Propietario\source\repos\ZooManagementSystem\ZooManagementSystem\obj\Debug\net8.0\ZooManag.F649E5B4.Up2Date
+C:\Users\Propietario\source\repos\ZooManagementSystem\ZooManagementSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

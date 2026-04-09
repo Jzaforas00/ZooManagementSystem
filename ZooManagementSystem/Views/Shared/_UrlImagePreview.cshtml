@@ -1,0 +1,14 @@
+﻿@model string
+@if (!string.IsNullOrWhiteSpace(Model))
+{
+    <div class="url-preview-card">
+        <div class="url-preview-meta">
+            <a href="@Model" target="_blank" rel="noopener noreferrer">@Model</a>
+        </div>
+        <img class="url-preview-image" src="@Model" alt="Vista previa" loading="lazy" onerror="this.closest('.url-preview-card')?.classList.add('is-broken'); this.style.display='none'; this.insertAdjacentHTML('afterend', '<div class=&quot;url-preview-fallback&quot;>No se pudo cargar la imagen</div>');" />
+    </div>
+}
+else
+{
+    <span class="url-empty">Sin imagen</span>
+}

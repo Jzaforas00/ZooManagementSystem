@@ -1,6 +1,14 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
-wwwroot\js\site.js
+wwwroot\images\theme\Caballo.jpg
+wwwroot\images\theme\Camello.jpg
+wwwroot\images\theme\Cebra.jpg
+wwwroot\images\theme\Desierto.jpg
+wwwroot\images\theme\Guepardo.jpg
+wwwroot\images\theme\Manglar.jpg
+wwwroot\images\theme\Paramo.jpg
+wwwroot\images\theme\Pato.jpg
+wwwroot\images\theme\Pradera.jpg
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css

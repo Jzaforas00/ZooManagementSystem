@@ -1,4 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using ZooManagementSystem.Data.Repositories;
+using ZooManagementSystem.Services.Implementations;
+using ZooManagementSystem.Services.Interfaces;
 
 namespace ZooManagementSystem
 {
@@ -14,6 +17,12 @@ namespace ZooManagementSystem
             // Add a database connection
             builder.Services.AddDbContext<Data.ZooDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            builder.Services.AddScoped<IAnimalQueryService, AnimalQueryService>();
+            builder.Services.AddScoped<ICompatibilityService, CompatibilityService>();
+            builder.Services.AddScoped<IFeedingService, FeedingService>();
+            builder.Services.AddScoped<IManagementService, ManagementService>();
+            builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
             var app = builder.Build();
 
