@@ -1,0 +1,46 @@
+@model Empleado
+@{
+    ViewData["Title"] = "Editar empleado";
+    var categorias = ViewBag.Categorias as List<CategoriaLaboral> ?? new();
+    var jaulas = ViewBag.Jaulas as List<Jaula> ?? new();
+}
+
+<h1>Editar empleado</h1>
+<form method="post" class="form-grid">
+    <input type="hidden" asp-for="Id" />
+
+    <label>Nombre</label>
+    <input asp-for="Nombre" />
+
+    <label>Apodo</label>
+    <input asp-for="Apodo" />
+
+    <label>Teléfono</label>
+    <input asp-for="Telefono" />
+
+    <label>CP</label>
+    <input asp-for="Cp" />
+
+    <label>Categoría</label>
+    <select asp-for="CategoriasId">
+        <option value="">-- seleccionar --</option>
+        @foreach (var item in categorias)
+        {
+            <option value="@item.Id">@item.Descripcion</option>
+        }
+    </select>
+
+    <label>Jaula</label>
+    <select asp-for="JaulaId">
+        <option value="">-- seleccionar --</option>
+        @foreach (var item in jaulas)
+        {
+            <option value="@item.Id">@item.Codigo</option>
+        }
+    </select>
+
+    <div class="form-actions">
+        <button type="submit">Guardar</button>
+        <a asp-action="Index" class="secondary-btn">Cancelar</a>
+    </div>
+</form>

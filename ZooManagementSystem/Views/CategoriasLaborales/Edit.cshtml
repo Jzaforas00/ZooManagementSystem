@@ -1,0 +1,20 @@
+@model CategoriaLaboral
+@{
+    ViewData["Title"] = "Editar categoría";
+}
+
+<h1>Editar categoría laboral</h1>
+<form method="post" class="form-grid">
+    <input type="hidden" asp-for="Id" />
+
+    <label>Descripción</label>
+    <input asp-for="Descripcion" />
+
+    <label>Sueldo</label>
+    <input asp-for="Sueldo" />
+
+    <div class="form-actions">
+        <button type="submit">Guardar</button>
+        <a asp-action="Index" class="secondary-btn">Cancelar</a>
+    </div>
+</form>

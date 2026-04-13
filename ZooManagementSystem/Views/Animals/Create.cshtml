@@ -1,0 +1,56 @@
+@model Animal
+@{
+    ViewData["Title"] = "Crear animal";
+    var jaulas = ViewBag.Jaulas as List<Jaula> ?? new();
+    var dietas = ViewBag.Alimentaciones as List<Alimentacion> ?? new();
+    var ecosistemas = ViewBag.Ecosistemas as List<Ecosistema> ?? new();
+}
+
+<h1>Crear animal</h1>
+<form method="post" class="form-grid">
+    <label>Especie</label>
+    <input asp-for="Especie" />
+
+    <label>Nombre popular</label>
+    <input asp-for="NombrePopular" />
+
+    <label>Ecosistema</label>
+    <select asp-for="EcosistemaId">
+        <option value="">-- seleccionar --</option>
+        @foreach (var item in ecosistemas)
+        {
+            <option value="@item.Id">@item.Descripcion</option>
+        }
+    </select>
+
+    <label>Url imagen</label>
+    <div class="inline-image-editor">
+        <input asp-for="UrlImagen" class="image-url-input" />
+        <div class="inline-preview-box">
+            @await Html.PartialAsync("_UrlImagePreview", Model.UrlImagen ?? string.Empty)
+        </div>
+    </div>
+
+    <label>Jaula</label>
+    <select asp-for="JaulaId">
+        <option value="">-- seleccionar --</option>
+        @foreach (var jaula in jaulas)
+        {
+            <option value="@jaula.Id">@jaula.Codigo</option>
+        }
+    </select>
+
+    <label>Dieta</label>
+    <select asp-for="AlimentacionId">
+        <option value="">-- seleccionar --</option>
+        @foreach (var dieta in dietas)
+        {
+            <option value="@dieta.Id">@dieta.Nombre</option>
+        }
+    </select>
+
+    <div class="form-actions">
+        <button type="submit">Guardar</button>
+        <a asp-action="Index" class="secondary-btn">Cancelar</a>
+    </div>
+</form>

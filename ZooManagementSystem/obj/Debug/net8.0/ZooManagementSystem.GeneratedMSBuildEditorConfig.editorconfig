@@ -22,12 +22,196 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Alimentacion/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxpbWVudGFjaW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Alimentacion/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxpbWVudGFjaW9uXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Alimentacion/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxpbWVudGFjaW9uXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Alimentacion/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxpbWVudGFjaW9uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Alimentacion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxpbWVudGFjaW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Alimentos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxpbWVudG9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Alimentos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxpbWVudG9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Alimentos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxpbWVudG9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Alimentos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxpbWVudG9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Alimentos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxpbWVudG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Animals/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Animals/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Animals/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Animals/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Animals/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/CategoriasLaborales/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc0xhYm9yYWxlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/CategoriasLaborales/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc0xhYm9yYWxlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/CategoriasLaborales/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc0xhYm9yYWxlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/CategoriasLaborales/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc0xhYm9yYWxlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/CategoriasLaborales/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc0xhYm9yYWxlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Dosis/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9zaXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Dosis/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9zaXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Dosis/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9zaXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Dosis/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9zaXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Dosis/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9zaXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Ecosistemas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWNvc2lzdGVtYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Ecosistemas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWNvc2lzdGVtYXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Ecosistemas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWNvc2lzdGVtYXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Ecosistemas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWNvc2lzdGVtYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Ecosistemas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWNvc2lzdGVtYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Empleados/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Empleados/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Empleados/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Empleados/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Empleados/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Jaulas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmF1bGFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Jaulas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmF1bGFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Jaulas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmF1bGFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Jaulas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmF1bGFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Jaulas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmF1bGFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Management/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlbWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Management/PedidosSugeridos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlbWVudFxQZWRpZG9zU3VnZXJpZG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Proveedores/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Proveedores/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Proveedores/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Proveedores/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Proveedores/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Shared/Components/Animal/Default.cshtml]
@@ -44,6 +228,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Zonas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWm9uYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Zonas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWm9uYXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Zonas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWm9uYXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Zonas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWm9uYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/Zonas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWm9uYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Propietario/source/repos/ZooManagementSystem/ZooManagementSystem/Views/_ViewImports.cshtml]

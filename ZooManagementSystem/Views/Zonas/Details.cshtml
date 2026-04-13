@@ -1,0 +1,12 @@
+@model Zona
+@{
+    ViewData["Title"] = "Detalle de zona";
+}
+
+<h1>@Model.Descripcion</h1>
+<div class="detail-card">
+    <p><strong>Id:</strong> @Model.ZonaId</p>
+    <p><strong>Descripción:</strong> @Model.Descripcion</p>
+    <p><strong>Ecosistema:</strong> @Model.Ecosistema?.Descripcion</p>
+    <p><strong>Jaulas:</strong> @string.Join(", ", Model.Jaulas.Select(j => j.Codigo).Where(x => !string.IsNullOrWhiteSpace(x)))</p>
+</div>

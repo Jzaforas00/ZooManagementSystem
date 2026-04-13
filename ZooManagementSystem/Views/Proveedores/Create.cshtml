@@ -1,0 +1,21 @@
+@model Proveedor
+@{
+    ViewData["Title"] = "Crear proveedor";
+}
+
+<h1>Crear proveedor</h1>
+<form method="post" class="form-grid">
+    <label>Id</label>
+    <input asp-for="Id" />
+
+    <label>Nombre</label>
+    <input asp-for="Nombre" />
+
+    <label>Dirección</label>
+    <input asp-for="Direccion" />
+
+    <div class="form-actions">
+        <button type="submit">Guardar</button>
+        <a asp-action="Index" class="secondary-btn">Cancelar</a>
+    </div>
+</form>

@@ -6,6 +6,7 @@
     <title>@ViewData["Title"] - Zoo</title>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     @await RenderSectionAsync("Styles", required: false)
+    @RenderSection("Scripts", required: false)
 </head>
 <body>
     <header class="site-header">
@@ -24,6 +25,7 @@
                 <div class="nav-dropdown">
                     <button type="button" class="nav-dropdown-toggle">Gestión</button>
                     <div class="nav-dropdown-menu">
+                        <a asp-controller="Alimentacion" asp-action="Index">Alimentacion</a>
                         <a asp-controller="Animals" asp-action="Index">Animales</a>
                         <a asp-controller="Alimentos" asp-action="Index">Alimentos</a>
                         <a asp-controller="Dosis" asp-action="Index">Dosis</a>

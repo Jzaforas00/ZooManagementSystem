@@ -1,0 +1,16 @@
+@model Alimento
+@{
+    ViewData["Title"] = "Detalle de alimento";
+}
+
+<h1>@Model.Nombre</h1>
+<div class="detail-card">
+    <p><strong>Id:</strong> @Model.Id</p>
+    <p><strong>Precio:</strong> @Model.Precio</p>
+    <p><strong>Stock:</strong> @Model.Stock</p>
+    <p><strong>Stock mínimo:</strong> @Model.StockMinimo</p>
+    <p><strong>Proveedor:</strong> @Model.Proveedor?.Nombre</p>
+    <p><strong>Calorías:</strong> @Model.Calorias</p>
+    <h3>Imagen</h3>
+    @await Html.PartialAsync("_UrlImagePreview", Model.Url ?? string.Empty)
+</div>

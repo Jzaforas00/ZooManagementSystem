@@ -32,40 +32,21 @@
         </div>
     </div>
 
-    <div class="menu-grid menu-grid-primary">
-        <a class="menu-card feature-card feature-dashboard" asp-controller="Management" asp-action="Index">
-            <strong>Cuadro de mando</strong>
-            <span>KPIs, compatibilidades, inversión en comida y pedidos sugeridos listos para imprimir.</span>
-        </a>
-        <article class="menu-card feature-card feature-gestion">
-            <strong>Gestión</strong>
-            <span>Acceso agrupado a todos los mantenimientos para evitar una portada apelmazada.</span>
-            <div class="subnav-grid">
-                <a asp-controller="Animals" asp-action="Index">Animales</a>
-                <a asp-controller="Alimentos" asp-action="Index">Alimentos</a>
-                <a asp-controller="Dosis" asp-action="Index">Dosis</a>
-                <a asp-controller="Jaulas" asp-action="Index">Jaulas</a>
-                <a asp-controller="Zonas" asp-action="Index">Zonas</a>
-                <a asp-controller="Ecosistemas" asp-action="Index">Ecosistemas</a>
-                <a asp-controller="Empleados" asp-action="Index">Empleados</a>
-                <a asp-controller="CategoriasLaborales" asp-action="Index">Categorías</a>
-                <a asp-controller="Proveedores" asp-action="Index">Proveedores</a>
-            </div>
-        </article>
-    </div>
+    <form method="get" class="filterbar scenic-panel">
+        <label for="especie">Especie</label>
+        <select id="especie" name="especie">
+            <option value="">Todas</option>
+            @foreach (var especie in Model.EspeciesDisponibles)
+            {
+                <option value="@especie" selected="@(Model.EspecieFiltro == especie)">@especie</option>
+            }
+        </select>
+        <button type="submit">Filtrar</button>
+        <a asp-action="Index" class="secondary-btn">Limpiar</a>
+    </form>
+
 </section>
 
-<form method="get" class="filterbar scenic-panel">
-    <label for="especie">Especie</label>
-    <select id="especie" name="especie">
-        <option value="">Todas</option>
-        @foreach (var especie in Model.EspeciesDisponibles)
-        {
-            <option value="@especie" selected="@(Model.EspecieFiltro == especie)">@especie</option>
-        }
-    </select>
-    <button type="submit">Filtrar</button>
-    <a asp-action="Index" class="secondary-btn">Limpiar</a>
-</form>
+
 
 @await Component.InvokeAsync("Animal", new { especie = Model.EspecieFiltro })

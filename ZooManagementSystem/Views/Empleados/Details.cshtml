@@ -1,0 +1,15 @@
+@model Empleado
+@{
+    ViewData["Title"] = "Detalle de empleado";
+}
+
+<h1>@Model.Nombre</h1>
+<div class="detail-card">
+    <p><strong>Id:</strong> @Model.Id</p>
+    <p><strong>Nombre:</strong> @Model.Nombre</p>
+    <p><strong>Apodo:</strong> @Model.Apodo</p>
+    <p><strong>Teléfono:</strong> @Model.Telefono</p>
+    <p><strong>CP:</strong> @Model.Cp</p>
+    <p><strong>Categoría:</strong> @Model.CategoriaLaboral?.Descripcion</p>
+    <p><strong>Jaula:</strong> @Model.Jaula?.Codigo</p>
+</div>

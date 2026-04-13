@@ -1,0 +1,13 @@
+@model Alimentacion
+@{
+    ViewData["Title"] = "Eliminar alimentacion";
+}
+
+<h1>Eliminar alimentación</h1>
+<p>¿Seguro que quieres eliminar la alimentación <strong>@Model.Nombre</strong>?</p>
+
+<form method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit">Eliminar</button>
+    <a asp-action="Index" class="secondary-btn">Cancelar</a>
+</form>

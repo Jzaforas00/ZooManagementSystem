@@ -1,0 +1,24 @@
+@model Ecosistema
+@{
+    ViewData["Title"] = "Crear ecosistema";
+}
+
+<h1>Crear ecosistema</h1>
+<form method="post" class="form-grid">
+
+    <label>Descripción</label>
+    <input asp-for="Descripcion" />
+
+    <label>Url</label>
+    <div class="inline-image-editor">
+        <input asp-for="Url" class="image-url-input" />
+        <div class="inline-preview-box">
+            @await Html.PartialAsync("_UrlImagePreview", Model.Url ?? string.Empty)
+        </div>
+    </div>
+
+    <div class="form-actions">
+        <button type="submit">Guardar</button>
+        <a asp-action="Index" class="secondary-btn">Cancelar</a>
+    </div>
+</form>

@@ -1,0 +1,17 @@
+@model Animal
+@{
+    ViewData["Title"] = "Eliminar animal";
+}
+
+<h1>Eliminar animal</h1>
+<div class="detail-card">
+    <p>¿Seguro que quieres eliminar a <strong>@Model.NombrePopular</strong>?</p>
+    <p><strong>Especie:</strong> @Model.Especie</p>
+    <h3>Imagen</h3>
+    @await Html.PartialAsync("_UrlImagePreview", Model.UrlImagen ?? string.Empty)
+</div>
+<form method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit">Eliminar</button>
+    <a asp-action="Index" class="secondary-btn">Cancelar</a>
+</form>

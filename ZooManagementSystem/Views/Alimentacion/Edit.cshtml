@@ -1,0 +1,19 @@
+@model Alimentacion
+@{
+    ViewData["Title"] = "Editar alimentacion";
+    var proveedores = ViewBag.Proveedores as List<Proveedor> ?? new();
+}
+
+<h1>Editar alimento</h1>
+<form method="post" class="form-grid">
+    <input type="hidden" asp-for="Id" />
+
+
+    <label>Nombre</label>
+    <input asp-for="Nombre" />
+
+    <div class="form-actions">
+        <button type="submit">Guardar</button>
+        <a asp-action="Index" class="secondary-btn">Cancelar</a>
+    </div>
+</form>

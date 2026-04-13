@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Propietario\\source\\repos\\ZooManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{422754A1-0824-D535-3B86-7BC1C9159C92}|ZooManagementSystem\\ZooManagementSystem.csproj|c:\\users\\propietario\\source\\repos\\zoomanagementsystem\\zoomanagementsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{422754A1-0824-D535-3B86-7BC1C9159C92}|ZooManagementSystem\\ZooManagementSystem.csproj|solutionrelative:zoomanagementsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{422754A1-0824-D535-3B86-7BC1C9159C92}|ZooManagementSystem\\ZooManagementSystem.csproj|c:\\users\\propietario\\source\\repos\\zoomanagementsystem\\zoomanagementsystem\\services\\implementations\\animalqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422754A1-0824-D535-3B86-7BC1C9159C92}|ZooManagementSystem\\ZooManagementSystem.csproj|solutionrelative:zoomanagementsystem\\services\\implementations\\animalqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{422754A1-0824-D535-3B86-7BC1C9159C92}|ZooManagementSystem\\ZooManagementSystem.csproj|c:\\users\\propietario\\source\\repos\\zoomanagementsystem\\zoomanagementsystem\\models\\viewmodels\\animalcardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422754A1-0824-D535-3B86-7BC1C9159C92}|ZooManagementSystem\\ZooManagementSystem.csproj|solutionrelative:zoomanagementsystem\\models\\viewmodels\\animalcardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{422754A1-0824-D535-3B86-7BC1C9159C92}|ZooManagementSystem\\ZooManagementSystem.csproj|c:\\users\\propietario\\source\\repos\\zoomanagementsystem\\zoomanagementsystem\\controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422754A1-0824-D535-3B86-7BC1C9159C92}|ZooManagementSystem\\ZooManagementSystem.csproj|solutionrelative:zoomanagementsystem\\controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{422754A1-0824-D535-3B86-7BC1C9159C92}|ZooManagementSystem\\ZooManagementSystem.csproj|c:\\users\\propietario\\source\\repos\\zoomanagementsystem\\zoomanagementsystem\\views\\animals\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{422754A1-0824-D535-3B86-7BC1C9159C92}|ZooManagementSystem\\ZooManagementSystem.csproj|solutionrelative:zoomanagementsystem\\views\\animals\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,7 +25,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 110,
+          "DockedHeight": 32,
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -27,14 +39,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Propietario\\source\\repos\\ZooManagementSystem\\ZooManagementSystem\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "ZooManagementSystem\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Propietario\\source\\repos\\ZooManagementSystem\\ZooManagementSystem\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "ZooManagementSystem\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAGkEAAAAAAAAAAAAwIYEAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-09T16:56:21.385Z",
+              "Title": "AnimalQueryService.cs",
+              "DocumentMoniker": "C:\\Users\\Propietario\\source\\repos\\ZooManagementSystem\\ZooManagementSystem\\Services\\Implementations\\AnimalQueryService.cs",
+              "RelativeDocumentMoniker": "ZooManagementSystem\\Services\\Implementations\\AnimalQueryService.cs",
+              "ToolTip": "C:\\Users\\Propietario\\source\\repos\\ZooManagementSystem\\ZooManagementSystem\\Services\\Implementations\\AnimalQueryService.cs",
+              "RelativeToolTip": "ZooManagementSystem\\Services\\Implementations\\AnimalQueryService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T15:04:43.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnimalCardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Propietario\\source\\repos\\ZooManagementSystem\\ZooManagementSystem\\Models\\ViewModels\\AnimalCardViewModel.cs",
+              "RelativeDocumentMoniker": "ZooManagementSystem\\Models\\ViewModels\\AnimalCardViewModel.cs",
+              "ToolTip": "C:\\Users\\Propietario\\source\\repos\\ZooManagementSystem\\ZooManagementSystem\\Models\\ViewModels\\AnimalCardViewModel.cs",
+              "RelativeToolTip": "ZooManagementSystem\\Models\\ViewModels\\AnimalCardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T15:03:29.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AnimalsController.cs",
+              "DocumentMoniker": "C:\\Users\\Propietario\\source\\repos\\ZooManagementSystem\\ZooManagementSystem\\Controllers\\AnimalsController.cs",
+              "RelativeDocumentMoniker": "ZooManagementSystem\\Controllers\\AnimalsController.cs",
+              "ToolTip": "C:\\Users\\Propietario\\source\\repos\\ZooManagementSystem\\ZooManagementSystem\\Controllers\\AnimalsController.cs",
+              "RelativeToolTip": "ZooManagementSystem\\Controllers\\AnimalsController.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAADwv4YAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T14:43:04.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Propietario\\source\\repos\\ZooManagementSystem\\ZooManagementSystem\\Views\\Animals\\Create.cshtml",
+              "RelativeDocumentMoniker": "ZooManagementSystem\\Views\\Animals\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Propietario\\source\\repos\\ZooManagementSystem\\ZooManagementSystem\\Views\\Animals\\Create.cshtml",
+              "RelativeToolTip": "ZooManagementSystem\\Views\\Animals\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-13T14:40:04.272Z",
               "EditorCaption": ""
             }
           ]
@@ -46,6 +97,16 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 325,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

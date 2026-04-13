@@ -1,0 +1,14 @@
+@model Jaula
+@{
+    ViewData["Title"] = "Detalle de jaula";
+}
+
+<h1>Jaula @Model.Codigo</h1>
+<div class="detail-card">
+    <p><strong>Id:</strong> @Model.Id</p>
+    <p><strong>Código:</strong> @Model.Codigo</p>
+    <p><strong>Zona:</strong> @Model.Zona?.Descripcion</p>
+    <p><strong>Ecosistema:</strong> @Model.Zona?.Ecosistema?.Descripcion</p>
+    <p><strong>Animales:</strong> @string.Join(", ", Model.Animales.Select(a => a.NombrePopular).Where(x => !string.IsNullOrWhiteSpace(x)))</p>
+    <p><strong>Empleados:</strong> @string.Join(", ", Model.Empleados.Select(e => e.Nombre).Where(x => !string.IsNullOrWhiteSpace(x)))</p>
+</div>

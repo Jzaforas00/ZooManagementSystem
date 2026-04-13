@@ -1,0 +1,82 @@
+@model IEnumerable<Dosis>
+@{
+    ViewData["Title"] = "Dosis";
+}
+
+<div class="page-header">
+    <h1>Dosis</h1>
+    <a class="primary-btn" asp-action="Create">Nueva dosis</a>
+</div>
+
+<table id="tabla-dosis" class="table display data-table-zoo">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Animal</th>
+            <th>Alimento</th>
+            <th>Cantidad</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.DosisId</td>
+            <td>@item.Animal?.NombrePopular</td>
+            <td>@item.Alimento?.Nombre</td>
+            <td>@item.Cantidad</td>
+            <td class="actions">
+                <a asp-action="Details" asp-route-id="@item.DosisId">Detalle</a>
+                <a asp-action="Edit" asp-route-id="@item.DosisId">Editar</a>
+                <a asp-action="Delete" asp-route-id="@item.DosisId">Borrar</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+@section Styles {
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.8/css/jquery.dataTables.min.css" />
+}
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(function () {
+            $('#tabla-dosis').DataTable({
+                pageLength: 10,
+                lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, "Todos"]],
+                order: [],
+                language: {
+                    decimal: ",",
+                    thousands: ".",
+                    emptyTable: "No hay datos disponibles en la tabla",
+                    info: "Mostrando _START_ a _END_ de _TOTAL_ registros",
+                    infoEmpty: "Mostrando 0 a 0 de 0 registros",
+                    infoFiltered: "(filtrado de _MAX_ registros totales)",
+                    infoPostFix: "",
+                    lengthMenu: "Mostrar _MENU_ registros",
+                    loadingRecords: "Cargando...",
+                    processing: "Procesando...",
+                    search: "Buscar:",
+                    zeroRecords: "No se encontraron resultados",
+                    paginate: {
+                        first: "Primero",
+                        last: "Último",
+                        next: "Siguiente",
+                        previous: "Anterior"
+                    },
+                    aria: {
+                        sortAscending: ": activar para ordenar la columna de manera ascendente",
+                        sortDescending: ": activar para ordenar la columna de manera descendente"
+                    }
+                },
+                columnDefs: [
+                    { targets: -1, orderable: false, searchable: false }
+                ]
+            });
+        });
+    </script>
+}

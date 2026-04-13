@@ -1,0 +1,29 @@
+@model ManagementDashboardViewModel
+@{
+    ViewData["Title"] = "Gestión";
+}
+
+<div class="page-header">
+    <div>
+        <h1>Inversion en comida</h1>
+    </div>
+</div>
+
+<div class="kpi-grid">
+    <div class="kpi"><span>Inversión en comida</span><strong>@Model.InversionTotalComida.ToString("C")</strong></div>
+</div>
+
+</section>
+
+<section class="dashboard-panel">
+    <h2>Coste por animal</h2>
+    <table class="table">
+        <thead><tr><th>Animal</th><th>Especie</th><th>Coste</th></tr></thead>
+        <tbody>
+        @foreach (var item in Model.CostePorAnimal)
+        {
+            <tr><td>@item.Nombre</td><td>@item.Especie</td><td>@item.Coste.ToString("C")</td></tr>
+        }
+        </tbody>
+    </table>
+</section>

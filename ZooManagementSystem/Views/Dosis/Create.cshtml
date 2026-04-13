@@ -1,0 +1,35 @@
+@model Dosis
+@{
+    ViewData["Title"] = "Crear dosis";
+    var animales = ViewBag.Animales as List<Animal> ?? new();
+    var alimentos = ViewBag.Alimentos as List<Alimento> ?? new();
+}
+
+<h1>Crear dosis</h1>
+<form method="post" class="form-grid">
+    <label>Animal</label>
+    <select asp-for="AnimalId">
+        <option value="">-- seleccionar --</option>
+        @foreach (var item in animales)
+        {
+            <option value="@item.Id">@item.NombrePopular (@item.Especie)</option>
+        }
+    </select>
+
+    <label>Alimento</label>
+    <select asp-for="AlimentoId">
+        <option value="">-- seleccionar --</option>
+        @foreach (var item in alimentos)
+        {
+            <option value="@item.Id">@item.Nombre</option>
+        }
+    </select>
+
+    <label>Cantidad</label>
+    <input asp-for="Cantidad" />
+
+    <div class="form-actions">
+        <button type="submit">Guardar</button>
+        <a asp-action="Index" class="secondary-btn">Cancelar</a>
+    </div>
+</form>

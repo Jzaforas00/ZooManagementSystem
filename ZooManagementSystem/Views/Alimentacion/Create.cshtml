@@ -1,0 +1,16 @@
+@model Alimentacion
+@{
+    ViewData["Title"] = "Crear alimentacion";
+}
+
+<h1>Crear alimento</h1>
+<form method="post" class="form-grid">
+
+    <label>Dieta</label>
+    <input asp-for="Nombre" />
+
+    <div class="form-actions">
+        <button type="submit">Guardar</button>
+        <a asp-action="Index" class="secondary-btn">Cancelar</a>
+    </div>
+</form>

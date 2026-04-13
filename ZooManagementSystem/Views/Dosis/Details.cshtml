@@ -1,0 +1,11 @@
+@model Dosis
+@{
+    ViewData["Title"] = "Detalle de dosis";
+}
+
+<h1>Dosis @Model.DosisId</h1>
+<div class="detail-card">
+    <p><strong>Animal:</strong> @Model.Animal?.NombrePopular</p>
+    <p><strong>Alimento:</strong> @Model.Alimento?.Nombre</p>
+    <p><strong>Cantidad:</strong> @Model.Cantidad</p>
+</div>

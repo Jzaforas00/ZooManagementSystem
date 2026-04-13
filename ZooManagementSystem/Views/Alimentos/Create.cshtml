@@ -1,0 +1,46 @@
+@model Alimento
+@{
+    ViewData["Title"] = "Crear alimento";
+    var proveedores = ViewBag.Proveedores as List<Proveedor> ?? new();
+}
+
+<h1>Crear alimento</h1>
+<form method="post" class="form-grid">
+
+    <label>Nombre</label>
+    <input asp-for="Nombre" />
+
+    <label>Precio</label>
+    <input asp-for="Precio" />
+
+    <label>Stock</label>
+    <input asp-for="Stock" />
+
+    <label>Stock mínimo</label>
+    <input asp-for="StockMinimo" />
+
+    <label>Proveedor</label>
+    <select asp-for="ProveedorId">
+        <option value="">-- seleccionar --</option>
+        @foreach (var item in proveedores)
+        {
+            <option value="@item.Id">@item.Nombre</option>
+        }
+    </select>
+
+    <label>Url</label>
+    <div class="inline-image-editor">
+        <input asp-for="Url" class="image-url-input" />
+        <div class="inline-preview-box">
+            @await Html.PartialAsync("_UrlImagePreview", Model.Url ?? string.Empty)
+        </div>
+    </div>
+
+    <label>Calorías</label>
+    <input asp-for="Calorias" />
+
+    <div class="form-actions">
+        <button type="submit">Guardar</button>
+        <a asp-action="Index" class="secondary-btn">Cancelar</a>
+    </div>
+</form>

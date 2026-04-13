@@ -9,6 +9,7 @@ namespace ZooManagementSystem.Data
 
         public ZooDbContext(DbContextOptions<ZooDbContext> options) : base(options){}
 
+        public DbSet<Alimentacion> Alimentaciones => Set<Alimentacion>();
         public DbSet<Alimento> Alimentos => Set<Alimento>();
         public DbSet<Animal> Animales => Set<Animal>();
         public DbSet<CategoriaLaboral> CategoriasLaborales => Set<CategoriaLaboral>();

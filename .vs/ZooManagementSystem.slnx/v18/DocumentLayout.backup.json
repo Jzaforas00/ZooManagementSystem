@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Propietario\\source\\repos\\ZooManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{422754A1-0824-D535-3B86-7BC1C9159C92}|ZooManagementSystem\\ZooManagementSystem.csproj|c:\\users\\propietario\\source\\repos\\zoomanagementsystem\\zoomanagementsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{422754A1-0824-D535-3B86-7BC1C9159C92}|ZooManagementSystem\\ZooManagementSystem.csproj|solutionrelative:zoomanagementsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{422754A1-0824-D535-3B86-7BC1C9159C92}|ZooManagementSystem\\ZooManagementSystem.csproj|c:\\users\\propietario\\source\\repos\\zoomanagementsystem\\zoomanagementsystem\\models\\enums\\animaldiettype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422754A1-0824-D535-3B86-7BC1C9159C92}|ZooManagementSystem\\ZooManagementSystem.csproj|solutionrelative:zoomanagementsystem\\models\\enums\\animaldiettype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,8 +13,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 110,
-          "SelectedChildIndex": 2,
+          "DockedHeight": 32,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -23,19 +23,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Propietario\\source\\repos\\ZooManagementSystem\\ZooManagementSystem\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "ZooManagementSystem\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Propietario\\source\\repos\\ZooManagementSystem\\ZooManagementSystem\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "ZooManagementSystem\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAGkEAAAAAAAAAAAAwIYEAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-09T16:56:21.385Z",
-              "EditorCaption": ""
             }
           ]
         },
@@ -46,6 +33,29 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 325,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AnimalDietType.cs",
+              "DocumentMoniker": "C:\\Users\\Propietario\\source\\repos\\ZooManagementSystem\\ZooManagementSystem\\Models\\Enums\\AnimalDietType.cs",
+              "RelativeDocumentMoniker": "ZooManagementSystem\\Models\\Enums\\AnimalDietType.cs",
+              "ToolTip": "C:\\Users\\Propietario\\source\\repos\\ZooManagementSystem\\ZooManagementSystem\\Models\\Enums\\AnimalDietType.cs",
+              "RelativeToolTip": "ZooManagementSystem\\Models\\Enums\\AnimalDietType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T14:25:06.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

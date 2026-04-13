@@ -1,0 +1,19 @@
+@model Animal
+@{
+    ViewData["Title"] = "Detalle de animal";
+    var ecosistema = ViewBag.Ecosistema as Ecosistema;
+}
+
+<h1>@Model.NombrePopular</h1>
+<div class="detail-card">
+    <p><strong>Id:</strong> @Model.Id</p>
+    <p><strong>Especie:</strong> @Model.Especie</p>
+    <p><strong>Ecosistema asignado:</strong> @(ecosistema?.Descripcion ?? "-")</p>
+    <p><strong>Jaula:</strong> @Model.Jaula?.Codigo</p>
+    <p><strong>Zona:</strong> @Model.Jaula?.Zona?.Descripcion</p>
+    <p><strong>Ecosistema de la zona:</strong> @Model.Jaula?.Zona?.Ecosistema?.Descripcion</p>
+    <p><strong>Dieta:</strong> @Model.Alimentacion?.Nombre</p>
+    <p><strong>Calorías ingeridas:</strong> @ViewBag.Calorias</p>
+    <h3>Imagen</h3>
+    @await Html.PartialAsync("_UrlImagePreview", Model.UrlImagen ?? string.Empty)
+</div>

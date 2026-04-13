@@ -1,0 +1,12 @@
+@model Dosis
+@{
+    ViewData["Title"] = "Eliminar dosis";
+}
+
+<h1>Eliminar dosis</h1>
+<p>¿Seguro que quieres eliminar la dosis <strong>@Model.DosisId</strong>?</p>
+<form method="post">
+    <input type="hidden" asp-for="DosisId" />
+    <button type="submit">Eliminar</button>
+    <a asp-action="Index" class="secondary-btn">Cancelar</a>
+</form>

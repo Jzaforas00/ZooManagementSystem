@@ -1,0 +1,27 @@
+@model Zona
+@{
+    ViewData["Title"] = "Editar zona";
+    var ecosistemas = ViewBag.Ecosistemas as List<Ecosistema> ?? new();
+}
+
+<h1>Editar zona</h1>
+<form method="post" class="form-grid">
+    <input type="hidden" asp-for="ZonaId" />
+
+    <label>Descripción</label>
+    <input asp-for="Descripcion" />
+
+    <label>Ecosistema</label>
+    <select asp-for="EcosistemaId">
+        <option value="">-- seleccionar --</option>
+        @foreach (var item in ecosistemas)
+        {
+            <option value="@item.Id">@item.Descripcion</option>
+        }
+    </select>
+
+    <div class="form-actions">
+        <button type="submit">Guardar</button>
+        <a asp-action="Index" class="secondary-btn">Cancelar</a>
+    </div>
+</form>

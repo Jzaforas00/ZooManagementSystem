@@ -1,0 +1,12 @@
+@model Jaula
+@{
+    ViewData["Title"] = "Eliminar jaula";
+}
+
+<h1>Eliminar jaula</h1>
+<p>¿Seguro que quieres eliminar la jaula <strong>@Model.Codigo</strong>?</p>
+<form method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit">Eliminar</button>
+    <a asp-action="Index" class="secondary-btn">Cancelar</a>
+</form>

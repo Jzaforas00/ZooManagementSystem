@@ -1,0 +1,12 @@
+@model Ecosistema
+@{
+    ViewData["Title"] = "Detalle de ecosistema";
+}
+
+<h1>@Model.Descripcion</h1>
+<div class="detail-card">
+    <p><strong>Id:</strong> @Model.Id</p>
+    <p><strong>Descripción:</strong> @Model.Descripcion</p>
+    <h3>Imagen</h3>
+    @await Html.PartialAsync("_UrlImagePreview", Model.Url ?? string.Empty)
+</div>

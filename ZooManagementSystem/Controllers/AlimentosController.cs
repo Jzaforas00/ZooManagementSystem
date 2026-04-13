@@ -4,7 +4,7 @@ using ZooManagementSystem.Data;
 using ZooManagementSystem.Data.Repositories;
 using ZooManagementSystem.Models.Entities;
 
-namespace ZooMvc.Controllers;
+namespace ZooManagementSystem.Controllers;
 
 public class AlimentosController : Controller
 {

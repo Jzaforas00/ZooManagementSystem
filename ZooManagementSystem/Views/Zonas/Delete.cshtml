@@ -1,0 +1,12 @@
+@model Zona
+@{
+    ViewData["Title"] = "Eliminar zona";
+}
+
+<h1>Eliminar zona</h1>
+<p>¿Seguro que quieres eliminar la zona <strong>@Model.Descripcion</strong>?</p>
+<form method="post">
+    <input type="hidden" asp-for="ZonaId" />
+    <button type="submit">Eliminar</button>
+    <a asp-action="Index" class="secondary-btn">Cancelar</a>
+</form>

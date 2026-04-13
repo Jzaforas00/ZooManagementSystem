@@ -25,6 +25,7 @@ public class AnimalsController : Controller
         var items = await _repository.QueryNoTracking()
             .Include(a => a.Jaula)
             .Include(a => a.Ecosistema)
+            .Include(a => a.Alimentacion)
             .OrderBy(a => a.Especie)
             .ThenBy(a => a.NombrePopular)
             .ToListAsync(cancellationToken);
@@ -129,5 +130,6 @@ public class AnimalsController : Controller
     {
         ViewBag.Jaulas = await _context.Jaulas.AsNoTracking().OrderBy(j => j.Codigo).ToListAsync(cancellationToken);
         ViewBag.Ecosistemas = await _context.Ecosistemas.AsNoTracking().OrderBy(e => e.Descripcion).ToListAsync(cancellationToken);
+        ViewBag.Alimentaciones = await _context.Alimentaciones.AsNoTracking().OrderBy(a => a.Nombre).ToListAsync(cancellationToken);
     }
 }

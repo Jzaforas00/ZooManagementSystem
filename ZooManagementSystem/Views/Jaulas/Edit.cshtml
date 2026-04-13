@@ -1,0 +1,27 @@
+@model Jaula
+@{
+    ViewData["Title"] = "Editar jaula";
+    var zonas = ViewBag.Zonas as List<Zona> ?? new();
+}
+
+<h1>Editar jaula</h1>
+<form method="post" class="form-grid">
+    <input type="hidden" asp-for="Id" />
+
+    <label>Código</label>
+    <input asp-for="Codigo" />
+
+    <label>Zona</label>
+    <select asp-for="ZonaId">
+        <option value="">-- seleccionar --</option>
+        @foreach (var item in zonas)
+        {
+            <option value="@item.ZonaId">@item.Descripcion</option>
+        }
+    </select>
+
+    <div class="form-actions">
+        <button type="submit">Guardar</button>
+        <a asp-action="Index" class="secondary-btn">Cancelar</a>
+    </div>
+</form>
